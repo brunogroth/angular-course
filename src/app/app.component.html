@@ -7,7 +7,7 @@
 
 <div class="courses">
 
-    <course-card [course]="coreCourse"></course-card>
+    <course-card (courseSelected)="onCourseSelected()" [course]="coreCourse"></course-card>
     <course-card [course]="SecondCourse"></course-card>
     <course-card [course]="ThirdCourse"></course-card>
 

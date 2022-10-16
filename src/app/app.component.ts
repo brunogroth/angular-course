@@ -10,4 +10,8 @@ export class AppComponent {
   coreCourse = COURSES[0];
   SecondCourse = COURSES[1];
   ThirdCourse = COURSES[2];
+
+  onCourseSelected(){
+    console.log("cardclicked")
+  }
 }
